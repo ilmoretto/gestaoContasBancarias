@@ -9,8 +9,8 @@
     
     }
 
-    public ContaEstudante(int nConta, string agencia, string titular, double saldo, double limiteChequeEspecial, string cpf, string nomeInstituicao)
-            :base(nConta, agencia, titular, saldo)
+    public ContaEstudante(int nConta, string agencia, string titular, double limiteChequeEspecial, string cpf, string nomeInstituicao)
+            :base(nConta, agencia, titular)
     {
         setLimiteChequeEspecial(limiteChequeEspecial);
         setCPf(cpf);

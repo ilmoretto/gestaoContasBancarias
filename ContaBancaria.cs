@@ -10,14 +10,12 @@ public class Conta
 
     public Conta() { }
 
-    public Conta(int nConta, string agencia, string titular, double saldo)
+    public Conta(int nConta, string agencia, string titular)
     {
         setAgencia(agencia);
         setNConta(nConta);
         setTitular(titular);
-        setSaldo(saldo);
     }
-
 
     public void setNConta(int nConta)
     {
@@ -48,14 +46,7 @@ public class Conta
     {
         return titular;
     }
-    public void setSaldo(double saldo)
-    {
-        if (saldo < 0)
-        {
-            throw new Exception("Saldo não pode ser negativo");
-        }
-        this.saldo = saldo;
-    }
+
     public double getSaldo()
     {
         return saldo;
@@ -67,10 +58,13 @@ public class Conta
         {
             throw new Exception("Saldo insuficiente");
         }
+        else if (valor < 0)
+        {
+            throw new Exception("O valor do saque não pode ser negativo");
+        }
         else
         {
             saldo -= valor;
-
         }
     }
 
@@ -78,19 +72,12 @@ public class Conta
     {
         if (valor < 0)
         {
-            throw new Exception("Valor de depósito deve ser positivo");
+            throw new Exception("Valor inválido!");
         }
         else
         {
             saldo += valor;
         }
 
-
-
-
-
     }
-
-
-
 }

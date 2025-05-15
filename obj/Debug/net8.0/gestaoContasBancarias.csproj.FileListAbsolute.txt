@@ -12,3 +12,4 @@ C:\Users\2024102060006\Documents\POO\gestaoContasBancarias\obj\Debug\net8.0\refi
 C:\Users\2024102060006\Documents\POO\gestaoContasBancarias\obj\Debug\net8.0\gestaoContasBancarias.pdb
 C:\Users\2024102060006\Documents\POO\gestaoContasBancarias\obj\Debug\net8.0\gestaoContasBancarias.genruntimeconfig.cache
 C:\Users\2024102060006\Documents\POO\gestaoContasBancarias\obj\Debug\net8.0\ref\gestaoContasBancarias.dll
+C:\Users\2024102060006\Documents\POO\gestaoContasBancarias\obj\Debug\net8.0\gestaoContasBancarias.sourcelink.json

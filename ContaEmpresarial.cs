@@ -7,13 +7,11 @@
 
     public ContaEmpresarial() { }
 
-    public ContaEmpresarial(int nConta, string agencia, string titular, double saldo, double anuidade, double limiteEmprestimo, double totalEmprestimo)
-        : base(nConta, agencia, titular, saldo)
+    public ContaEmpresarial(int nConta, string agencia, string titular, double anuidade, double limiteEmprestimo)
+        : base(nConta, agencia, titular)
     {
-        setSaldo(saldo);
         setAnuidade(anuidade);
         setLimiteEmprestimo(limiteEmprestimo);
-        setTotalEmprestimo(totalEmprestimo);
 
     }
 
@@ -49,17 +47,7 @@
     {
         return limiteEmprestimo;
     }
-    public void setTotalEmprestimo(double totalEmprestimo)
-    {
-        if (totalEmprestimo < 0)
-        {
-            throw new Exception("Total de empréstimo não pode ser negativo");
-        }
-        else
-        {
-            this.totalEmprestimo = totalEmprestimo;
-        }
-    }
+
     public double getTotalEmprestimo()
     {
         return totalEmprestimo;
@@ -67,17 +55,22 @@
 
     public override void Sacar(double valor)
     {
-        double taxaSaque = 5;
+       
         if (valor > saldo)
         {
             throw new Exception("Saldo insuficiente");
         }
         if (valor > 5000)
         {
-            valor -= taxaSaque;
+            double taxaSaque = 5;
             saldo -= valor;
+            saldo -= taxaSaque;
 
             Console.WriteLine("Saque realizado!");
+        }
+        else
+        {
+            base.Sacar(valor);//usando o metodo direto do pai
         }
 
 
