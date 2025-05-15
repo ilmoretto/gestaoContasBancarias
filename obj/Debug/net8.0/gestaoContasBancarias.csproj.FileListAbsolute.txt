@@ -1,0 +1,14 @@
+C:\Users\2024102060006\Documents\POO\gestaoContasBancarias\bin\Debug\net8.0\gestaoContasBancarias.exe
+C:\Users\2024102060006\Documents\POO\gestaoContasBancarias\bin\Debug\net8.0\gestaoContasBancarias.deps.json
+C:\Users\2024102060006\Documents\POO\gestaoContasBancarias\bin\Debug\net8.0\gestaoContasBancarias.runtimeconfig.json
+C:\Users\2024102060006\Documents\POO\gestaoContasBancarias\bin\Debug\net8.0\gestaoContasBancarias.dll
+C:\Users\2024102060006\Documents\POO\gestaoContasBancarias\bin\Debug\net8.0\gestaoContasBancarias.pdb
+C:\Users\2024102060006\Documents\POO\gestaoContasBancarias\obj\Debug\net8.0\gestaoContasBancarias.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2024102060006\Documents\POO\gestaoContasBancarias\obj\Debug\net8.0\gestaoContasBancarias.AssemblyInfoInputs.cache
+C:\Users\2024102060006\Documents\POO\gestaoContasBancarias\obj\Debug\net8.0\gestaoContasBancarias.AssemblyInfo.cs
+C:\Users\2024102060006\Documents\POO\gestaoContasBancarias\obj\Debug\net8.0\gestaoContasBancarias.csproj.CoreCompileInputs.cache
+C:\Users\2024102060006\Documents\POO\gestaoContasBancarias\obj\Debug\net8.0\gestaoContasBancarias.dll
+C:\Users\2024102060006\Documents\POO\gestaoContasBancarias\obj\Debug\net8.0\refint\gestaoContasBancarias.dll
+C:\Users\2024102060006\Documents\POO\gestaoContasBancarias\obj\Debug\net8.0\gestaoContasBancarias.pdb
+C:\Users\2024102060006\Documents\POO\gestaoContasBancarias\obj\Debug\net8.0\gestaoContasBancarias.genruntimeconfig.cache
+C:\Users\2024102060006\Documents\POO\gestaoContasBancarias\obj\Debug\net8.0\ref\gestaoContasBancarias.dll
