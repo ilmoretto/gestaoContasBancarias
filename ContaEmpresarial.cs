@@ -55,12 +55,12 @@
 
     public override void Sacar(double valor)
     {
-       
+
         if (valor > saldo)
         {
             throw new Exception("Saldo insuficiente");
         }
-        if (valor > 5000)
+        if (valor > 5000 && valor < saldo - 5)
         {
             double taxaSaque = 5;
             saldo -= valor;
@@ -77,7 +77,7 @@
     }
     public void FazerEmprestimo(double valor)
     {
-        if (valor > limiteEmprestimo)
+        if (valor > limiteEmprestimo - totalEmprestimo)
         {
             throw new Exception("O valor de empréstimo não pode ser concedido.");
         }
@@ -93,6 +93,5 @@
         }
 
     }
-
 
 }

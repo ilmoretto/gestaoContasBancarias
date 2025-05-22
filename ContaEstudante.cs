@@ -70,13 +70,13 @@
 
     public override void Sacar(double valor)
     {
-        if (valor > saldo + limiteChequeEspecial)
+        if (valor > saldo + limiteChequeEspecial && valor > 0)
         {
-            throw new Exception("Saldo insuficiente");
+            saldo -= valor;
         }
         else
         {
-            saldo -= valor;
+            throw new Exception("Saldo insuficiente");            
         }
     }
 
